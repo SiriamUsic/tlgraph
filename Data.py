@@ -22,9 +22,9 @@ class Data:
     ABOUT = """
 **About This Bot** 
 
-السورس : @YY8GG
+السورس : @CR_T2
 
-المطور : @KU_KX
+المطور : @BK_ZT
     """
 
     SUPPORTED_MEDIA_TYPES = """
@@ -36,13 +36,13 @@ class Data:
 4) فيديو
 5) ملاحظة فيديو
 6) مستند (فيديو / صورة / صورة متحركة)
-7) ملاحظة : أن لا يبلغ حجم المستند 5 ميغا
+7) ملاحظة : أن لا يبلغ حجم المستند 5 ميجا
    
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/YY8GGX")],
+        [InlineKeyboardButton("❲ ⁨⁩𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐄𝐋𝐄𝐆𝐎𝐃 ❳", url="https://t.me/cr_t2")],
         [InlineKeyboardButton("أنواع الوسائط المدعومة", callback_data="supported_media_types")],
         [InlineKeyboardButton("أغلاق", callback_data="close")],
         [InlineKeyboardButton(text="رجوع", callback_data="home")],
@@ -51,7 +51,7 @@ class Data:
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/YY8GGX")
+            InlineKeyboardButton("❲ ⁨⁩𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐄𝐋𝐄𝐆𝐎𝐃 ❳", url="https://t.me/cr_t2")
         ],
         [InlineKeyboardButton("أنواع الوسائط المدعومة", callback_data="supported_media_types")],
         [
@@ -63,7 +63,7 @@ class Data:
 
     # Supported Media Buttons
     supported_media_buttons = [
-        [InlineKeyboardButton("حالة البوت والمزيد من الروبوتات", url="https://t.me/YY8GGX")],
+        [InlineKeyboardButton("❲ ⁨⁩𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐄𝐋𝐄𝐆𝐎𝐃 ❳", url="https://t.me/CR_t2")],
         [InlineKeyboardButton("أغلاق", callback_data="close")],
         [InlineKeyboardButton(text="رجوع", callback_data="home")]
     ]
