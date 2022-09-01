@@ -33,10 +33,10 @@ async def telegraph_group(_, message: Message):
             await message.reply("الرجاء الرد على رسالة إعلامية.")
             return
         elif message.reply_to_message.empty:
-            await message.reply("هاه؟ أعتقد أنه تم حذف الرسالة ...")
+            await message.reply("أعتقد أنه تم حذف الرسالة ...")
             return
         elif message.reply_to_message.text:
-            await message.reply("لا يمكن تحميل الرسائل النصية إلى التلغراف")
+            await message.reply("لا يمكن تحميل الرسائل النصية إلى التلجراف")
             return
         url, status = await work_to_do(message.reply_to_message)
         if url:

@@ -5,7 +5,7 @@ from pyrogram.types import Message
 
 extensions = ["jpg", "jpeg", "png", "gif", "mp4"]
 size_limit = 5242880
-size_error = "الملفات التي يزيد حجمها عن 5 ميغا بايت غير مقبولة."
+size_error = "الملفات التي يزيد حجمها عن 5 ميجا بايت غير مقبولة."
 status_text = "جار التحويل والتحميل..."
 
 
@@ -16,7 +16,7 @@ async def work_to_do(message: Message):
     if message.document:
         extension = message.document.file_name[-3:]
         if extension not in extensions:
-            await message.reply("لا يدعم التلغراف هذا التنسيق", quote=True)
+            await message.reply("لا يدعم التلجراف هذا التنسيق", quote=True)
             return
         elif message.document.file_size > size_limit:
             await message.reply(size_error, quote=True)
